@@ -11,6 +11,121 @@ body {
 	padding: 0;
 	font-size: 14px;
 	color: #96a6a7;
-	background-color: #f3f1f2;
+	background-color: #ffffff;
 	font-family: 'GothamBook';
+}
+
+.primary{
+	color: #1baf5d;
+}
+
+.primary-bg{
+	background-color: #1baf5d;
+}
+
+ul li{
+	list-style: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+.right{
+	float: right;
+}
+
+.all-items{
+	overflow: hidden;
+}
+
+/****** Header ******/
+
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-brand img{
+	height: 32px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 14px;
+	color: #c2bdbf;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+
+.nav-items{
+	float: right;
+}
+
+.search,
+.login{
+	float: left;
+}
+
+
+.search a {
+    display: inline-block;
+    padding: 15px 26px;
+    font-size: 14px;
+    background-color: #e2dee0;
+    color: #fff;
+}
+
+
+.login a {
+	position: relative;
+    display: inline-block;
+    padding: 15px 26px;
+    font-size: 14px;
+    background-color: #e94e38;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.login a:after {
+	position: absolute;
+	content: "";
+	left: 100%;
+	top: 0;
+	bottom: 0;
+	right: -2000px;
+	background-color: #e94e38;
+}
+
+.search-area{
+	background: url('./../img/banner.jpg');
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: #fff;
+	margin-top: -29px;
+}
+
+.search-pan {
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -o-border-radius: 16px;
+    background-color: rgba(0,0,0,0.3);
+    border-color: #5a543d;
+    height: 52px;
+    color: #fff;
+}
+
+.search-area h1{
+	margin-top: 61px;
+	text-align: center;
+	margin-bottom: 36px;
+}
+
+input {
+    margin-top: 21px;
+}
+
+#submit{
+	
 }
