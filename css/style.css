@@ -126,6 +126,41 @@ input {
     margin-top: 21px;
 }
 
-#submit{
+#submit {
+    text-align: center;
+    border-radius: 22px;
+    -moz-border-radius: 22px;
+    -o-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    background-color: #e94e38;
+    border: none;
+	padding: 13px 17px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+#submit:hover {
+    background-color: #ec6554;
+}
+
+
+.selcet-icon {
+	position: relative;
+}
+.selcet-icon .form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
 	
+}
+.selcet-icon:after {
+	content: "\f107";
+	position: absolute;
+	right: 27px;
+	top: 10px;
+	font-family: "fontAwesome";
+	color: #fff;
+	font-size: 25px;
+	pointer-events: none;
 }
