@@ -583,6 +583,31 @@ ul li{
 	border: 3px solid #9dacad;
 }
 
+.offer-body ul li.active a.home{
+	background-color: #fff;
+	border: 3px solid #1baf5d;
+}
+
+.offer-body ul li.active a.music{
+	background-color: #fff;
+	border: 3px solid #f19e1f;
+}
+
+.offer-body ul li.active a.versity{
+	background-color: #fff;
+	border: 3px solid #e94e38;
+}
+
+.offer-body ul li.active a.user{
+	background-color: #fff;
+	border: 3px solid #88499c;
+}
+
+.offer-body ul li.active a.bus{
+	background-color: #fff;
+	border: 3px solid #1a91c9;
+}
+
 .offer-body ul li a.home:hover{
 	border: 3px solid #1baf5d;
 	color: #1baf5d;
@@ -614,4 +639,42 @@ ul li{
 .offer-body ul li a i {
     font-size: 38px;
     padding: 29px 0;
+}
+
+.reality h1{
+	margin-top: 40px;
+	margin-bottom: 52px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #1baf5d;
+}
+
+.reality p {
+	font-size: 12px;
+}
+
+.reality a{
+	display: inline-block;
+    background: red;
+    color: #fff;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+
+.reality a i {
+    font-size: 30px;
+    padding: 17px 0;
+}
+
+.reality-content-icon{
+	width: 10%;
+	float: left;
+}
+
+.reality-content-body{
+	width: 80%;
+	text-align: justify;
+	float: left;
+	padding-left: 21px;
 }
