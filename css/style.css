@@ -14,6 +14,14 @@ body {
 	background-color: #ffffff;
 	font-family: 'GothamBook';
 }
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: inset;
+    border-width: 0.5px;
+    border-color: rgba(240,240,240,.3);
+}
 
 .pad{
 	margin-top: 15px;
@@ -75,7 +83,6 @@ ul li{
 	float: left;
 }
 
-
 .search a {
     display: inline-block;
     padding: 15px 26px;
@@ -83,7 +90,6 @@ ul li{
     background-color: #e2dee0;
     color: #fff;
 }
-
 
 .login a {
 	position: relative;
@@ -195,10 +201,6 @@ ul li{
 .recommendation{
 	margin-top: 9px;
 }
-
-/* .filters{
-	margin-top: 9px;
-} */
 
 .filter ul.features li{
 	text-transform: uppercase;
@@ -496,6 +498,8 @@ ul li{
 	float: left;
 }
 
+/*******Client********/
+
 .client-title{
 	background-color: #fff;
 	
@@ -551,6 +555,8 @@ ul li{
     font-size: 13px;
     font-weight: bold;
 }
+
+/******Offer******/
 
 .offer-title h1{
 	font-size: 22px;
@@ -641,6 +647,8 @@ ul li{
     padding: 29px 0;
 }
 
+/*****Reality******/
+
 .reality h1{
 	margin-top: 40px;
 	margin-bottom: 52px;
@@ -677,4 +685,87 @@ ul li{
 	text-align: justify;
 	float: left;
 	padding-left: 21px;
+}
+
+
+/*******Footer*******/
+
+.footer{
+	background: url('./../images/footer.jpg');
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+}
+
+.footer h1{
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 46px;
+	margin-top: 63px;
+}
+
+.footer ul li{
+	display: table;
+	margin: 0 auto;
+}
+
+
+#subscribe {
+    border-radius: 22px;
+    background-color: rgba(240,240,240,.2);
+    padding-left: 60px;
+    height: 60px;
+    font-size: 19px;
+    color: #fff;
+}
+
+#subscribe.focus{
+
+}
+
+
+.subscribe-input{
+	position: relative;
+}
+
+#subscribe-btn {
+    background-color: #e94e38;
+    color: #fff;
+    border: none;
+    position: absolute;
+    top: 9px;
+    right: 11px;
+    border-radius: 17px;
+    height: 43px;
+    text-transform: uppercase;
+    padding: 10px 14px;
+}
+#subscribe-btn:hover{
+	background-color: #e7614f;
+}
+
+.subscribe-input i {
+    position: absolute;
+    top: 26px;
+    left: 30px;
+}
+
+/*******Footer content*******/
+
+.footer-content h1 {
+    color: rgba(240,240,240,.9);
+}
+
+.footer-content span a {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 13px;
+}
+
+.footer-content span a:last-child{
+	margin-right: 0px;
+}
+
+.footer-content span a:hover{
+	color: rgb(218, 214, 214);
 }
