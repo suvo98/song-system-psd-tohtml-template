@@ -9,5 +9,5 @@
 =====================
 1. parent k display relative kore child k position absolute kore left right top bottom diye jekhane sekhane neya jay.
 ==================
-
+1. p tag er sathe onno item ante hole p tag k display: inline dite hoy
 

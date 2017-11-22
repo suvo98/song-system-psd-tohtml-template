@@ -520,7 +520,22 @@ ul li{
 
 .client-title p{
 	font-size: 12px;
+	text-align: justify;
+	display: inline;
+}
 
+.client-title p::before{
+	content: '""';
+}
+
+.client-title p::after{
+	content: '""';
+}
+
+.content-left-p a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
 }
 
 .load{
@@ -528,3 +543,16 @@ ul li{
     font-size: 13px;
     font-weight: bold;
 }
+
+.reality-title h1{
+	font-size: 22px;
+}
+
+.reality-title p{
+	font-size: 16px;
+}
+
+.reality-body {
+	text-align: center;
+}
+
