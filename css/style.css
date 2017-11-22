@@ -498,7 +498,15 @@ ul li{
 
 .client-title{
 	background-color: #fff;
+	
 }
+
+
+.client-title ul li{
+	margin-bottom: 26px
+}
+
+
 
 .client-title .span {
     width: 100%;
@@ -544,15 +552,66 @@ ul li{
     font-weight: bold;
 }
 
-.reality-title h1{
+.offer-title h1{
 	font-size: 22px;
 }
 
-.reality-title p{
+.offer-title p{
 	font-size: 16px;
 }
 
-.reality-body {
+.offer-body {
 	text-align: center;
+	margin-top: 75px;
 }
 
+.offer-body ul li{
+	margin-right: 63px;
+}
+
+.offer-body ul li:last-child{
+	margin-right: 0px;
+}
+
+.offer-body ul li a {
+    display: inline-block;
+    background-color: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+	color: #9dacad;
+	border: 3px solid #9dacad;
+}
+
+.offer-body ul li a.home:hover{
+	border: 3px solid #1baf5d;
+	color: #1baf5d;
+} 
+
+.offer-body ul li a.bus:hover{
+	border: 3px solid #1a91c9;
+	color: #1a91c9;
+} 
+
+.offer-body ul li a.versity:hover{
+	border: 3px solid #e94e38;
+	color: #e94e38;
+} 
+
+
+.offer-body ul li a.user:hover{
+	border: 3px solid #88499c;
+	color: #88499c;
+} 
+
+
+.offer-body ul li a.music:hover{
+	border: 3px solid #f19e1f;
+	color: #f19e1f;
+} 
+
+
+.offer-body ul li a i {
+    font-size: 38px;
+    padding: 29px 0;
+}
