@@ -522,3 +522,9 @@ ul li{
 	font-size: 12px;
 
 }
+
+.load{
+	text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
